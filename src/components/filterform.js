@@ -19,7 +19,11 @@ export default function FilterForm(props) {
       >
         <select name="category" onChange={handleChangeCategory}>
           {trivia_categories.trivia_categories.map((cat) => {
-            return <option value={cat.id}>{cat.name}</option>;
+            return (
+              <option key={cat.id} value={cat.id}>
+                {cat.name}
+              </option>
+            );
           })}
         </select>
         <select name="difficulty" onChange={handleChangeDifficulty}>
