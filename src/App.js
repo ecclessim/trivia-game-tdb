@@ -4,7 +4,6 @@ import BooleanQuestion from './components/question/booleanquestion';
 import MultipleQuestion from './components/question/multiplequestion';
 import Scoreboard from './components/scoreboard/scoreboard';
 import FilterForm from './components/filterform';
-import mockData from './constants/mockdata.json';
 
 export default function App() {
   const [trivias, setTrivias] = useState([]);
@@ -15,14 +14,12 @@ export default function App() {
   const [category, setCategory] = useState('');
   const [difficulty, setDifficulty] = useState('');
 
-  // const x = mockData.mockData;
   const loadTrivias = () => {
     fetch(
       `https://opentdb.com/api.php?amount=${Math.ceil(
         Math.random() * 20
       )}&category=${category}&difficulty=${difficulty}`
     )
-      // fetch(`https://opentdb.com/api.php?amount=2`)
       .then((res) => {
         return res.json();
       })
@@ -33,11 +30,6 @@ export default function App() {
         setResults(null);
       })
       .catch((err) => console.error(err));
-
-    // Mock request
-    // setTrivias(x.results);
-    // setScoreLen(x.results.length);
-    // setResults(null);
   };
 
   const processScore = () => {
