@@ -1,0 +1,71 @@
+{
+  "mockData": {
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Science: Computers",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The very first recorded computer &quot;bug&quot; was a moth found inside a Harvard Mark II computer.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+      },
+      {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The Southeast Asian island of Borneo is politically divided among 3 countries.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these countries was NOT a part of the Soviet Union?",
+        "correct_answer": "Afghanistan",
+        "incorrect_answers": ["Turkmenistan", "Kazakhstan", "Uzbekistan"]
+      },
+      {
+        "category": "Celebrities",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Marilyn Monroe was born on July 1, 1926.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which card is on the cover of the Beta rulebook of &quot;Magic: The Gathering&quot;?",
+        "correct_answer": "Bog Wraith",
+        "incorrect_answers": ["Island", "Rock Hydra", "Elvish Archers"]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Where would you find the &quot;Spanish Steps&quot;?",
+        "correct_answer": "Rome, Italy",
+        "incorrect_answers": [
+          "Barcelona, Spain",
+          "Berlin, Germany",
+          "London, England"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Mario Kart series, which game introduced the &quot;Shield Drifting&quot; mechanic?",
+        "correct_answer": "Mario Kart Arcade GP DX",
+        "incorrect_answers": [
+          "Mario Kart: Double Dash",
+          "Mario Kart Super Circuit",
+          "Mario Kart DS"
+        ]
+      }
+    ]
+  }
+}
